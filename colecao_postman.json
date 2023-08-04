@@ -1,0 +1,43 @@
+{
+    "info": {
+        "_postman_id": "c9b03e3d-23e0-4537-afb5-61920b782f85",
+        "name": "projeto_api",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "28176891"
+    },
+    "item": [
+        {
+            "name": "http://localhost:8000/api/emprestimo/",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"cpf\": \"97766458230\",\n    \"parcelas\": 18,\n    \"valor\": 357\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8000/api/emprestimo/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "emprestimo",
+                        ""
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
